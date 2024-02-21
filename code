@@ -1,0 +1,11 @@
+meme_dict = {
+            "cringe": "qualcosa di molto imbarazzante",
+            "lol": "risposta a qualcosa di molto divertente",
+            }
+
+parola = input("scrivi quale parola vuoi imparare oggi (scrivere in lettere minuscole)")
+
+if parola in meme_dict.key: 
+    print(meme_dict.key())
+else:
+    print("parola non disponibile nel dizionario")
